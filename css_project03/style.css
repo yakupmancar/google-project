@@ -1,0 +1,175 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+/*NAVBAR*/
+nav {
+    height: 40px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+  }
+
+.nav1 {
+    height: 40px;
+    width: 30%;
+    display: inline-block;
+}
+
+.nav1 li {
+    padding: 20px 15px;
+    float: left;
+}
+
+.nav2 {
+    height: 40px;
+    width: 50%;
+    float: right;
+    display: inline-block;
+}
+
+.nav2 li {
+    padding: 20px 15px;
+    float: right;
+}
+
+.sign {
+    padding: 5px 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid #f2f2f2;
+    font-weight: bold;
+}
+
+
+/*MAİN-SEARCH*/
+.logo {
+    display: flex;
+    margin: 150px auto 20px auto;
+}
+
+#search {
+    display: inline-block;
+    margin: 0px;
+    margin-left: 10px;
+    border: none;
+    text-align: start;
+    height: 34px;
+    line-height: 34px;
+    cursor: text;
+    width: 400px;
+    outline: none;
+}
+
+.search-div{
+    margin: 0 auto;
+    width: 500px;
+    border: 1px solid gainsboro;
+    border-radius: 50px;
+}
+
+#search-logo{
+    float: left;
+    margin-top: 6px;
+    margin-left: 12px;
+    color: dimgray;;
+
+}
+
+#mic-logo{
+    display: flex;
+    float: right;
+    width: 23px;
+    margin-top: 7px;
+    margin-right: 10px;
+    
+}
+
+.search-div:hover {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+
+.buttons {
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+.googlesearch {
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #5f6368;
+
+}
+
+.feelinglucky {
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #5f6368;
+}
+
+
+/*FOOTER*/
+footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 10px;
+    background-color: gainsboro;
+}
+
+.footer1 {
+    height: 40px;
+    width: 30%;
+    display: inline-block;
+}
+
+.footer1 li {
+    padding: 16px 20px;
+    float: left;
+    color:70757a;
+}
+
+.footer2 {
+    height: 40px;
+    width: 50%;
+    float: right;
+    display: inline-block;
+}
+
+.footer2 li {
+    padding: 16px 20px;
+    float: right;
+}
+
+footer a:hover {
+    text-decoration: underline;
+  }
